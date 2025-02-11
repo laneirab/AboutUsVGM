@@ -5,24 +5,43 @@
   text-align: center;
 }
 
+body{
+  font-family: 'Summer', sans-serif;
+}
+
+
 .logo {
   will-change: filter;
   transition: filter 300ms;
+  font-size: 7em; 
 }
 
-h3 {
+.Fin {
+  font-family: "Summer", sans-serif  !important;
   font-size: 3em;
   padding: 0;
   margin-bottom: 0%;
+  color: #ffffff;
 }
 
-h2 {
+.Future {
+  font-family: "Summer" , sans-serif !important ;
   margin-top: 0%;
   margin-bottom: 0%;
   font-size: 5em;
   color: #99d0f2;
 }
 
+.subtexto {
+  font-family: "Open", sans-serif !important;
+  font-size: 0.7em;
+  color: #ffffff;
+  margin: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 38%;
+  text-align: center;
+}
 .logo:hover {
   filter: drop-shadow(0 0 6px #29275C);
 }

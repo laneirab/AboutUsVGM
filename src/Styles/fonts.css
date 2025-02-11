@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Beckman';
+    src: url('public/Fonts/Beckman.otf') format('opentype');
+    
+}
+
+@font-face {
+    font-family: 'Summer';
+    src: url('public/Fonts/Summer.ttf') format('truetype');
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+@font-face {
+    font-family: 'Open';
+    src: url('public/Fonts/OpenSans-Light.ttf') format('truetype');
+    
+}
+
+

@@ -1,6 +1,7 @@
 import { IconoBlancoTexto } from '../Components/icons';
 import { NavBar } from '../Components/navBar';
 import { BlurBackground } from '../Components/background.tsx';
+import Button from 'react-bootstrap/Button';
 import '../Styles/App.css';
 
 function App() {
@@ -15,13 +16,13 @@ function App() {
         </a>
       </div>
       <div className='text'>
-      <h3>FINANCING</h3> 
-      <h2>THE FUTURE</h2>
+      <h3 className="Fin">Financing</h3>
+      <h2 className="Future" style={{ fontFamily: 'Beckman' }}>The future</h2>
       </div>
-        <button>
+        <Button style={{ backgroundColor: '#29275C', borderColor: '#29275C', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '15px' ,margin:"30px"}} variant="primary" size="lg">
           Start Now
-        </button>
-      <p className="read-the-docs">
+        </Button>
+      <p className="subtexto">
         Página en construcción
       </p>
     </div>
