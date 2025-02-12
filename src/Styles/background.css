@@ -80,26 +80,26 @@ html, body {
   background: radial-gradient(circle at center, rgba(var(--color1), 0.85) 0%, rgba(var(--color1), 0) 60%) no-repeat;
   top: 5%;
   left: 5%;
-  animation: moveVertical 30s ease-in-out infinite;
+  animation: moveVertical 10s ease-in-out infinite;
 }
 
 .gradient-bg .g2 {
   background: radial-gradient(circle at center, rgba(var(--color2), 0.85) 0%, rgba(var(--color2), 0) 60%) no-repeat;
   top: 5%;
   right: 5%;
-  animation: moveInCircle 40s linear infinite;
+  animation: moveInCircle 20s linear infinite;
 }
 
 .gradient-bg .g3 {
   background: radial-gradient(circle at center, rgba(var(--color3), 0.85) 0%, rgba(var(--color3), 0) 60%) no-repeat;
   bottom: 5%;
   left: 5%;
-  animation: moveHorizontal 50s ease-in-out infinite;
+  animation: moveHorizontal 30s ease-in-out infinite;
 }
 
 .gradient-bg .g4 {
   background: radial-gradient(circle at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%) no-repeat;
   bottom: 5%;
   right: 5%;
-  animation: moveInCircle 35s ease infinite;
+  animation: moveInCircle 15s ease infinite;
 }

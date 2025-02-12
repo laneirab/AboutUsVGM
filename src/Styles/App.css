@@ -14,13 +14,15 @@ body{
   will-change: filter;
   transition: filter 300ms;
   font-size: 7em; 
+  margin-bottom: 5%;
 }
 
 .Fin {
   font-family: "Summer", sans-serif  !important;
-  font-size: 3em;
+  font-size: 3rem;
   padding: 0;
   margin-bottom: 0%;
+  max-width: 100%;
   color: #ffffff;
 }
 
@@ -28,7 +30,8 @@ body{
   font-family: "Summer" , sans-serif !important ;
   margin-top: 0%;
   margin-bottom: 0%;
-  font-size: 5em;
+  font-size: 5rem;
+  max-width: 100%;
   color: #99d0f2;
 }
 
@@ -36,14 +39,10 @@ body{
   font-family: "Open", sans-serif !important;
   font-size: 0.7em;
   color: #ffffff;
-  margin: 10px;
-  position: fixed;
   bottom: 0;
-  width: 38%;
-  text-align: center;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 6px #29275C);
+  filter: drop-shadow(0 0 6px #99d0f2);
 }
 
 @keyframes logo-spin {
@@ -51,10 +50,33 @@ body{
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(400deg);
   }
 }
 
 .read-the-docs {
   color: #ffffff  ;
+}
+@media (max-width: 768px) {
+  .Future {
+    font-size: 3rem; 
+    max-width: 100%;
+  }
+
+  .Fin {
+    font-size: 2rem; 
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .Future {
+    font-size: 2rem; 
+    max-width: 100%;
+  }
+
+  .Fin {
+    font-size: 1.5rem; 
+    max-width: 100%;
+  }
 }

@@ -18,5 +18,15 @@
     align-items: center;
   }
   
-
+  .custom-collapse {
+    color: #ffffff; /* Cambia el color del texto dentro del colapso */
+  }
   
+  /* Otros estilos para los enlaces y el texto si es necesario */
+  .custom-collapse .nav-link {
+    color: #ffffff;
+  }
+  
+  .custom-collapse .nav-link:hover {
+    color: #99d0f2; /* Color al pasar el ratón por encima del enlace */
+  }
