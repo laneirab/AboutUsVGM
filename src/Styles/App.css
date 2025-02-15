@@ -5,29 +5,35 @@
   text-align: center;
 }
 
-body{
+body {
   font-family: 'Summer', sans-serif;
 }
-
 
 .logo {
   will-change: filter;
   transition: filter 300ms;
-  font-size: 7em; 
-  margin-bottom: 5%;
+  font-size: 7em;
+  margin-bottom: 8%;
+  margin-top: 15%;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 6px #99d0f2);
+  
 }
 
 .Fin {
-  font-family: "Summer", sans-serif  !important;
+  font-family: "Summer", sans-serif !important;
   font-size: 3rem;
   padding: 0;
+  margin-top: 0%;
   margin-bottom: 0%;
   max-width: 100%;
   color: #ffffff;
 }
 
 .Future {
-  font-family: "Summer" , sans-serif !important ;
+  font-family: "Summer", sans-serif !important;
   margin-top: 0%;
   margin-bottom: 0%;
   font-size: 5rem;
@@ -40,9 +46,11 @@ body{
   font-size: 0.7em;
   color: #ffffff;
   bottom: 0;
+  margin-top:7%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 6px #99d0f2);
+
+.read-the-docs {
+  color: #ffffff;
 }
 
 @keyframes logo-spin {
@@ -54,29 +62,69 @@ body{
   }
 }
 
-.read-the-docs {
-  color: #ffffff  ;
-}
 @media (max-width: 768px) {
   .Future {
-    font-size: 3rem; 
+    font-size: 3rem;
     max-width: 100%;
   }
 
   .Fin {
-    font-size: 2rem; 
+    font-size: 2rem;
     max-width: 100%;
   }
 }
 
 @media (max-width: 480px) {
   .Future {
-    font-size: 2rem; 
+    font-size: 2rem;
     max-width: 100%;
   }
 
   .Fin {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     max-width: 100%;
+  }
+}
+
+.scale-up-center {
+  animation: scale-up-center 0.5s ease-in-out forwards;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scale-up-bottom {
+  animation: scale-up-bottom 4s ease-in-out forwards;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: center bottom;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: center bottom;
+  }
+}
+
+.shadow-drop-center {
+  animation: shadow-drop-center 0.5s linear both;
+}
+
+@keyframes shadow-drop-center {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.55);
   }
 }
