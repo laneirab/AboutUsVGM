@@ -16,11 +16,11 @@ function App() {
         </a>
       </div>
       <div className='text'>
-      <h3 className="Fin">Financing</h3>
-      <h2 className="Future" style={{ fontFamily: 'Beckman' }}>The future</h2>
+      <h3 className="Fin scale-up-center">Financing</h3>
+      <h2 className="Future scale-up-center" style={{ fontFamily: 'Beckman' }}>The future</h2>
       </div>
       <a href="https://wa.me/13052982118" target="_blank" rel="noopener noreferrer"> 
-        <Button style={{ backgroundColor: '#29275C', borderColor: '#29275C', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '15px' ,margin:"30px"}} variant="primary" size="lg">
+        <Button style={{ backgroundColor: '#29275C', borderColor: '#29275C', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '15px' ,margin:"5px"}} variant="primary" size="lg">
           Start Now
         </Button>
       </a>

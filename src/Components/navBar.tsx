@@ -1,14 +1,16 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import React from "react";
-//import NavDropdown from "react-bootstrap/NavDropdown";
+import NavDropdown from "react-bootstrap/NavDropdown";
+
+
+import navBar from "../styles/navBar.module.css";	
+
 
 
 export const NavBar: React.FC = () => {
-
   return (
-    <Navbar fixed="top" expand="lg" className="navBar">
+    <Navbar fixed="top"  className="navBar">
       <Container>
       <Navbar.Brand href="#">
         <img
@@ -21,7 +23,7 @@ export const NavBar: React.FC = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav" className="custom-collapse">
-        <Nav className="ms-auto"> {/* Alinea a la derecha */}
+        <Nav className="ms-auto"> {}
         <Nav.Link href="https://m.facebook.com/profile.php?id=453888817815565" target="_blank" rel="noopener noreferrer">
           <img
           src="src\assets\logos\logoFacebook.svg"
