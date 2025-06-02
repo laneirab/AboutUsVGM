@@ -1,10 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 
-import navBar from "../styles/navBar.module.css";	
 
 
 
@@ -14,7 +12,7 @@ export const NavBar: React.FC = () => {
       <Container>
       <Navbar.Brand href="#">
         <img
-        src="src\assets\logos\logoBlancoSinTexto.svg"
+        src="public\Fonts\Images\logos\logoBlancoSinTexto.svg"
         width="30"
         height="30"
         className="d-inline-block align-top"
@@ -26,7 +24,7 @@ export const NavBar: React.FC = () => {
         <Nav className="ms-auto"> {}
         <Nav.Link href="https://m.facebook.com/profile.php?id=453888817815565" target="_blank" rel="noopener noreferrer">
           <img
-          src="src\assets\logos\logoFacebook.svg"
+          src="public\Fonts\Images\logos\logoFacebook.svg"
           width="20"
           height="20"
           className="d-inline-block align-top"
@@ -35,7 +33,7 @@ export const NavBar: React.FC = () => {
         </Nav.Link>
         <Nav.Link href="https://www.instagram.com/vmggroup_?igsh=MXM2NHJkeHNvanBocw==" target="_blank" rel="noopener noreferrer">
           <img
-          src="src\assets\logos\logoInstagram.svg"
+          src="public\Fonts\Images\logos\logoInstagram.svg"
           width="20"
           height="20"
           className="d-inline-block align-top"
@@ -44,7 +42,7 @@ export const NavBar: React.FC = () => {
         </Nav.Link>
         <Nav.Link href="mailto:vgmgrouplit@gmail.com" target="_blank" rel="noopener noreferrer">
           <img
-          src="src\assets\logos\logoCorreo.svg"
+          src="public\Fonts\Images\logos\logoCorreo.svg"
           width="20"
           height="20"
           className="d-inline-block align-top"
