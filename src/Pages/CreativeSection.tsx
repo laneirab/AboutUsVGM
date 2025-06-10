@@ -16,7 +16,7 @@ export const CreativeSection: React.FC = () => {
           <p>Suspendisse molestie fringilla risus, nec feugiat lacus luctus et. Aliquam ac auctor nibh. Nulla facilisi.</p>
         </div>
         <div className="center-icon">
-          <img src="src\assets\logos\logoBlancoSinTexto.svg" alt="Icono central" />
+          <img src="src\assets\vmgRecurso 6.svg" alt="Icono central" />
         </div>
         <div className="text-block bottom-left">
           <h4>VIVAMUS TINCIDUNT MOLLIS NIBH</h4>
