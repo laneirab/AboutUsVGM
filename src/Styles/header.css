@@ -8,10 +8,25 @@ body {
 }
  
 .header-container {
-  height: 100vh; 
-  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
   overflow: hidden;
 }
+
+.header-content {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  text-align: center;
+  padding: 20px;
+}
+
 
 .Fin {
   font-family: "Summer", sans-serif !important;
