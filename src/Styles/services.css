@@ -1,0 +1,35 @@
+html, body {
+    height: 100dvh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    width: 100vw;
+  }
+  
+  .section {
+    scroll-snap-align: center;
+    min-width: 100vw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .section1 { background-color: #F0EEE9; }
+  .section2 { background-color: #243981; color: white; }
+  .section3 { background-color: #AB9DFF; }
+  .section4 { background-color: #C0E0FF; }
+  .section5 { background-color: #E3FC87; }
+  
+  .content {
+    text-align: center;
+  }
+  
