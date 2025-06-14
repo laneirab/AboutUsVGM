@@ -1,0 +1,57 @@
+.team-section {
+    height: 100vh;
+    background: linear-gradient(135deg, #f2f0eb 0%, #e8e6e1 100%);
+    padding: 4rem 2rem;
+    overflow: hidden;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #243981;
+    letter-spacing: 2px;
+  }
+  
+  .team-carousel-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .team-carousel {
+    display: flex;
+    gap: 2rem;
+    padding: 30px;
+    animation: scroll-left 25s linear infinite;
+    width: fit-content;
+    min-width: 100%;
+  }
+  
+  .team-carousel:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .team-section {
+      padding: 2rem 1rem;
+    }
+    
+    .team-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    
+    .team-carousel {
+      animation-duration: 15s; /* Faster on mobile */
+    }
+  }
