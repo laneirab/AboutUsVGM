@@ -1,5 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-// src/Pages/OurTeam.tsx
 import React from 'react';
 import '../Styles/team.css';
 import { TeamCard } from '../Components/TeamCard';
