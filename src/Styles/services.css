@@ -8,8 +8,14 @@ html, body {
   font-family: "Summer", sans-serif !important;
   font-size: 3rem;
   font-weight: 200; 
+  color: #F0EEE9;
 }
-
+.texto1{
+  font-family: "Summer", sans-serif !important;
+  font-size: 3rem;
+  font-weight: 200; 
+  color: #253A82;
+}
 .horizontal-wrapper {
   position: relative;
   width: 100%;
