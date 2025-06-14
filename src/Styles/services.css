@@ -1,35 +1,47 @@
 html, body {
-    height: 100dvh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: row;
-    scroll-snap-type: x mandatory;
-    overflow-x: scroll;
-    width: 100vw;
-  }
-  
-  .section {
-    scroll-snap-align: center;
-    min-width: 100vw;
-    height: 100dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-  }
-  
-  .section1 { background-color: #F0EEE9; }
-  .section2 { background-color: #243981; color: white; }
-  .section3 { background-color: #AB9DFF; }
-  .section4 { background-color: #C0E0FF; }
-  .section5 { background-color: #E3FC87; }
-  
-  .content {
-    text-align: center;
-  }
-  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.texto{
+  font-family: "Summer", sans-serif !important;
+  font-size: 3rem;
+  font-weight: 200; 
+}
+
+.horizontal-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: max-content;
+}
+
+.section {
+  min-width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+}
+
+.section1 { background: #F0EEE9; }
+.section2 { background: #253A82; }
+.section3 { background: #AB9DFF; }
+.section4 { background: #C0E0FF; }
+.section5 { background: #E3FC87; }
+
+.content {
+  text-align: center;
+  max-width: 600px;
+}

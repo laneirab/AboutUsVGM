@@ -1,38 +1,74 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import '../Styles/services.css';
 
+gsap.registerPlugin(ScrollTrigger);
+
 export const Services: React.FC = () => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const sections = gsap.utils.toArray<HTMLElement>('.section');
+
+    
+    const totalScrollWidth = container.scrollWidth - window.innerWidth;
+
+    
+    gsap.to(container, {
+      x: () => `-${totalScrollWidth}`,
+      ease: 'none',
+      scrollTrigger: {
+        trigger: container,
+        start: 'top top',
+        end: () => `+=${totalScrollWidth}`,
+        scrub: true,
+        pin: true,
+        anticipatePin: 1,
+      },
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach(t => t.kill());
+    };
+  }, []);
+
   return (
-    <main>
-      <section className="section section1">
-        <div className="content">
-          <h2><strong>First</strong>, we set up the <em>snapping</em> points</h2>
-        </div>
-      </section>
+    <section className="horizontal-section">
+      <div className="horizontal-container" ref={containerRef}>
+        <section className="section section1">
+          <div className="content">
+            <h2 className="texto">¿Sabe que Caravana?</h2>
+          </div>
+        </section>
 
-      <section className="section section2">
-        <div className="content">
-          <h2><strong>Next</strong>, we set up the <em>scrolling</em> animation</h2>
-        </div>
-      </section>
+        <section className="section section2">
+          <div className="content">
+            <h2 className="texto">Si no le gusta el motilado Pailaaa</h2>
+          </div>
+        </section>
 
-      <section className="section section3">
-        <div className="content">
-          <h2><strong>Then</strong>, we position a <em>fixed</em> layout</h2>
-        </div>
-      </section>
+        <section className="section section3">
+          <div className="content">
+            <h2 className="texto">No lo mire , yo me siento bien asi</h2>
+          </div>
+        </section>
 
-      <section className="section section4">
-        <div className="content">
-          <h2><strong>Finally</strong>, we create the <em>transition</em> effects</h2>
-        </div>
-      </section>
+        <section className="section section4">
+          <div className="content">
+            <h2 className="texto">Yo no me mantengo pendiente del que diran</h2>
+          </div>
+        </section>
 
-      <section className="section section5">
-        <div className="content">
-          <h2><strong>Caveats</strong></h2>
-        </div>
-      </section>
-    </main>
+        <section className="section section5">
+          <div className="content">
+            <h2 className="texto"><strong>Desde que yo este bien , que ruede el mundo a mi alrededor ¿listo?</strong></h2>
+          </div>
+        </section>
+      </div>
+    </section>
   );
 };

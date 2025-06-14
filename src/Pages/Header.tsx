@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
         </p>
 
         <a href="https://wa.me/13052982118" target="_blank" rel="noopener noreferrer"> 
-          <Button style={{ backgroundColor: '#29275C', borderColor: '#29275C', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '15px', margin:"5px", width:"200px", borderRadius:"30px"}} variant="primary" size="lg">
+          <Button style={{ backgroundColor: '#253A82', borderColor: '#253A82', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '15px', margin:"5px", width:"200px", borderRadius:"30px"}} variant="primary" size="lg">
             Start Now
           </Button>
         </a>

@@ -8,7 +8,7 @@
   .title {
     font-size: 3rem;
     font-weight: 800;
-    color: #29275c;
+    color: #253A82;
     margin-bottom: 40px;
   }
   
@@ -23,7 +23,7 @@
   .text-block {
     width: 200px;
     position: absolute;
-    color: #29275c;
+    color: #253A82;
     font-size: 0.85rem;
   }
   
@@ -72,7 +72,7 @@
   
   /* Botón */
   .creative-button {
-    background-color: #29275c;
+    background-color: #253A82;
     color: white;
     border: none;
     padding: 15px 30px;

@@ -11,6 +11,7 @@ const App: React.FC = () => {
       <CreativeSection />
       <Benefits />
       <Services />
+      <Benefits />
     </div>
   );
 };

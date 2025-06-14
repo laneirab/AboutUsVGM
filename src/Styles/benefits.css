@@ -6,7 +6,7 @@
   .background-image {
     position: relative;
     height: 100vh;
-    background: #8cb6ff;
+    background: #C0E0FF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,7 +36,7 @@
   .benefits {
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to top, #e1e9f4, #8cb6ff);
+    background: linear-gradient(to top, #e1e9f4, #C0E0FF);
     padding: 2rem 1rem;
     flex-wrap: wrap;
   }
