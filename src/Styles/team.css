@@ -1,8 +1,8 @@
 .team-section {
     height: 100vh;
-    background: linear-gradient(135deg, #f2f0eb 0%, #e8e6e1 100%);
-    padding: 4rem 2rem;
+    background: #F0EEE9;
     overflow: hidden;
+    padding-top: 60px;
   }
   .team-section h2 {
     text-align: center;
