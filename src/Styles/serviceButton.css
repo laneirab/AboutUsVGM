@@ -1,0 +1,47 @@
+.service-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 120px;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .service-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+
+  
+  .service-button.taxes {
+    background: #243981;
+    color: white;
+  }
+  
+  .service-button.consulting {
+    background: #AB9DFF;
+    color: #243981;
+    font-size: 0.85rem;
+  }
+  
+  .service-button.health {
+    background: #C0E0FF;
+    color: #243981;
+  }
+  
+  .service-button.real {
+    background: #E3FC87;
+    color: #243981;
+  }
+  

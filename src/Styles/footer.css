@@ -1,0 +1,24 @@
+.contact-footer {
+    position: relative;
+    z-index: 1;
+    background: #243981;
+    color: white;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .contact-info, .footer-right {
+    font-size: 0.9rem;
+  }
+  
+  .socials i {
+    margin: 0 0.5rem;
+  }
+  
+  .credit {
+    font-size: 0.8rem;
+    color: #ccc;
+  }

@@ -5,6 +5,7 @@ import {Benefits} from '../Pages/Benefits.tsx';
 import { Services } from '../Pages/Services.tsx';
 import { Video } from '../Pages/Video.tsx';
 import {Team} from '../Pages/Team.tsx';
+import {Form} from '../Pages/Form.tsx';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
       <Services />
       <Video />
       <Team />
+      <Form />
     </div>
   );
 };

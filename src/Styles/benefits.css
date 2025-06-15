@@ -1,28 +1,45 @@
 .business-section {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .background-image {
-    position: relative;
-    height: 100vh;
-    background: #C0E0FF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .overlay {
-    color: #253A82;
-    max-width: 800px;
-    padding: 2rem;
-    backdrop-filter: blur(5px); 
-  }
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.background-image {
+  flex: 1;
+  background: linear-gradient(
+  #C0E0FF 30%,
+  #F0EEE9 70%,
+  #AB9DFF 95%,
+  #253A82 105%);
+
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  padding: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
   
   .title {
-    font-size: 3rem;
-    font-weight: 800;
+    font-family: "Summer", sans-serif !important;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 5rem;
+    max-width: 100%;
     color: #253A82;
   }
   
@@ -34,11 +51,14 @@
   }
   
   .benefits {
+    font-size: 1.8rem;
+    font-family: "Summer", sans-serif !important;
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to top, #e1e9f4, #C0E0FF);
     padding: 2rem 1rem;
     flex-wrap: wrap;
+    background: #C0E0FF;
+
   }
   
   .benefit {
