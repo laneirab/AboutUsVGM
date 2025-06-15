@@ -27,7 +27,7 @@ export const Services: React.FC = () => {
         end: () => `+=${totalScrollWidth}`,
         pin: true,
         anticipatePin: 1,
-        scrub: 3,
+        scrub: 1.5,
         snap : 0.05
       },
     });
@@ -42,56 +42,246 @@ export const Services: React.FC = () => {
       <div className="horizontal-container" ref={containerRef}>
         <section className="section section1">
           <div className="content">
-            <h2 className="texto1">¿Sabe que Caravana?</h2>
+            <h1 className="titulo">Services</h1>
+            <div>
+              <div>
+                <div className='rectangulos'>
+                  <div className='r1'>
+                    <div className='rectangulos1'>
+                      <h2 className='s1'>Taxes</h2>
+                      <img src="public\Fonts\Images\logos\taxes.svg" width="30"
+        height="30"
+        alt="tax" />
+                    </div>
+                    
+                  </div>
+                  <div className='r2'>
+                    <div className='rectangulos1'>
+                      <h2 className='s2'>Consulting</h2>
+                      <img src="public\Fonts\Images\logos\consulting.svg" width="30"
+        height="30"
+        alt="con" />
+                    </div>
+                    
+                  </div>
+                  <div className='r3'>
+                    <div className='rectangulos1 '>
+                      <h2 className='s2'>Health Insurances</h2>
+                      <img src="public\Fonts\Images\logos\health.svg" width="30"
+        height="30"
+        alt="health" />
+                    </div>
+                   
+                  </div>
+                  <div className='r4'>
+                    <div className='rectangulos1'>
+                      <h2 className="s2">Real State</h2>
+                      <img src="public\Fonts\Images\logos\real.svg" width="30"
+        height="30"
+        alt="tax" />
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 className="extra-title"></h2>
+            <div className="extra-info">
+              <h2 className="extra-title">Más información</h2>
+              <div className="extra-par" >
+                <p>Ofrecemos atención personalizada para cada cliente. <br />
+                aquidamos de todo lo que quiera bla kkajsdkjkjasjd <br />
+                aqui mas y más texto seguimos escribiendo un montón 
+                <br /></p>
+                <p>Contamos con años de <strong>experiencia </strong>en el sector.<br />
+                aquidamos de todo lo que quiera bla kkajsdkjkjasjd <br />
+                aqui mas y más texto seguimos escribiendo un montón 
+                <br /></p>
+                <p>Tu <strong>satisfacción</strong> es nuestra prioridad.<br />
+                aquidamos de todo lo que quiera bla kkajsdkjkjasjd <br />
+                aqui mas y más texto seguimos escribiendo un montón 
+                <br /></p>
+              </div>
+            </div>
           </div>
         </section>
 
         <section className="section section2">
           <div className="content">
-            <img
-        src="public\Fonts\Images\logos\taxes.svg"
-        width="200"
-        height="200"
-        alt="vgm"
-        />
-            <h2 className="texto">Si no le gusta el motilado Pailaaa</h2>
+            <div className='content2'>
+              <div className='content3'>
+              <h2 className='texto'>Taxes</h2>
+              <img
+                src="public/Fonts/Images/logos/taxes.svg"
+                width="200"
+                height="200"
+                alt="equipo"
+              />
+              </div>
+              <div className='content4'>
+                <h1 className='t1'>Descripción</h1>
+                <p  className="t2">
+                Contamos con un equipo de profesionales altamente capacitados y comprometidos con brindar el mejor servicio a nuestros clientes. Nos especializamos en ofrecer soluciones personalizadas, asesoría integral y acompañamiento en cada etapa de tus proyectos. Nuestro objetivo es superar tus expectativas y ayudarte a alcanzar tus metas con confianza y seguridad.
+                </p>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                  <hr style={{ margin: '1rem 0', color: '#F0EEE9', borderWidth: '2px' }} />
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3  className='t3'>subservicio</h3>
+                  <p className='t4'>
+                    Nuestro equipo cuenta con años de experiencia en el sector, brindando soluciones efectivas y personalizadas.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t3'>subservicio</h3>
+                  <p className='t4'>
+                    Nos comprometemos a ofrecer un servicio de calidad, enfocado en las necesidades de cada cliente.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t3'>subservicio</h3>
+                  <p className='t4'>
+                    Trabajamos para lograr los mejores resultados y la satisfacción total de quienes confían en nosotros.
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
 
           </div>
         </section>
 
         <section className="section section3">
           <div className="content">
-            <img
-        src="public\Fonts\Images\logos\consulting.svg"
-        width="200"
-        height="200"
-        alt="vgm"
-        />
-            <h2 className="texto1">No lo mire , yo me siento bien asi</h2>
+            <div className='content2'>
+              <div className='content3'>
+              <h2 className='texto1'>Consulting </h2>
+              <img
+                src="public/Fonts/Images/logos/consulting.svg"
+                width="200"
+                height="200"
+                alt="equipo"
+              />
+              </div>
+              <div className='content4'>
+                <h1 className='t12'>Descripción</h1>
+                <p  className="t22">
+                Contamos con un equipo de profesionales altamente capacitados y comprometidos con brindar el mejor servicio a nuestros clientes. Nos especializamos en ofrecer soluciones personalizadas, asesoría integral y acompañamiento en cada etapa de tus proyectos. Nuestro objetivo es superar tus expectativas y ayudarte a alcanzar tus metas con confianza y seguridad.
+                </p>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                  <hr style={{ margin: '1rem 0',  color: '#253A82', borderWidth: '2px' }} />
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3  className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Nuestro equipo cuenta con años de experiencia en el sector, brindando soluciones efectivas y personalizadas.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Nos comprometemos a ofrecer un servicio de calidad, enfocado en las necesidades de cada cliente.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Trabajamos para lograr los mejores resultados y la satisfacción total de quienes confían en nosotros.
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
         <section className="section section4">
           <div className="content">
-            <img
-        src="public\Fonts\Images\logos\health.svg"
-        width="200"
-        height="200"
-        alt="vgm"
-        />
-            <h2 className="texto1">Yo no me mantengo pendiente del que diran</h2>
+            <div className='content2'>
+              <div className='content3'>
+              <h2 className='texto1'>Health Insurance</h2>
+              <img
+                src="public/Fonts/Images/logos/Health.svg"
+                width="200"
+                height="200"
+                alt="equipo"
+              />
+              </div>
+              <div className='content4'>
+                <h1 className='t12'>Descripción</h1>
+                <p  className="t22">
+                Contamos con un equipo de profesionales altamente capacitados y comprometidos con brindar el mejor servicio a nuestros clientes. Nos especializamos en ofrecer soluciones personalizadas, asesoría integral y acompañamiento en cada etapa de tus proyectos. Nuestro objetivo es superar tus expectativas y ayudarte a alcanzar tus metas con confianza y seguridad.
+                </p>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                  <hr style={{ margin: '1rem 0', color: '#253A82', borderWidth: '2px' }} />
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3  className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Nuestro equipo cuenta con años de experiencia en el sector, brindando soluciones efectivas y personalizadas.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Nos comprometemos a ofrecer un servicio de calidad, enfocado en las necesidades de cada cliente.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Trabajamos para lograr los mejores resultados y la satisfacción total de quienes confían en nosotros.
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
         <section className="section section5">
           <div className="content">
-            <img
-        src="public\Fonts\Images\logos\real.svg"
-        width="200"
-        height="200"
-        alt="vgm"
-        />
-            <h2 className="texto1"><strong>Desde que yo este bien , que ruede el mundo a mi alrededor ¿listo?</strong></h2>
+            <div className='content2'>
+              <div className='content3'>
+              <h2 className='texto1'>Real State</h2>
+              <img
+                src="public/Fonts/Images/logos/real.svg"
+                width="200"
+                height="200"
+                alt="equipo"
+              />
+              </div>
+              <div className='content4'>
+                <h1 className='t12'>Descripción</h1>
+                <p  className="t22">
+                Contamos con un equipo de profesionales altamente capacitados y comprometidos con brindar el mejor servicio a nuestros clientes. Nos especializamos en ofrecer soluciones personalizadas, asesoría integral y acompañamiento en cada etapa de tus proyectos. Nuestro objetivo es superar tus expectativas y ayudarte a alcanzar tus metas con confianza y seguridad.
+                </p>
+                
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                  <hr style={{ margin: '1rem 0',  color: '#253A82', borderWidth: '2px' }} />
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3  className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Nuestro equipo cuenta con años de experiencia en el sector, brindando soluciones efectivas y personalizadas.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Nos comprometemos a ofrecer un servicio de calidad, enfocado en las necesidades de cada cliente.
+                  </p>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8rem' }}>
+                  <h3 className='t32'>subservicio</h3>
+                  <p className='t42'>
+                    Trabajamos para lograr los mejores resultados y la satisfacción total de quienes confían en nosotros.
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

@@ -9,14 +9,14 @@ export const CreativeSection: React.FC = () => {
       <div className="circle-layout">
         <div className="text-block top-left">
           <h4>LOREM IPSUM DOLOR SIT AMET</h4>
-          <p>Suspendisse molestie fringilla risus, nec feugiat lacus luctus et. Aliquam ac auctor nibh. Nulla facilisi.</p>
+          <p >Suspendisse molestie fringilla risus, nec feugiat lacus luctus et. Aliquam ac auctor nibh. Nulla facilisi.</p>
         </div>
         <div className="text-block top-right">
           <h4>ALIQUAM SOLLICITUDIN EN NISL ET LACINIA</h4>
           <p>Suspendisse molestie fringilla risus, nec feugiat lacus luctus et. Aliquam ac auctor nibh. Nulla facilisi.</p>
         </div>
         <div className="center-icon">
-          <img src="src\assets\vmgRecurso 6.svg" alt="Icono central" />
+          <img src="public\Fonts\Images\logos\centro.svg" alt="Icono central" />
         </div>
         <div className="text-block bottom-left">
           <h4>VIVAMUS TINCIDUNT MOLLIS NIBH</h4>

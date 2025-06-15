@@ -3,18 +3,140 @@ html, body {
   padding: 0;
   overflow-x: hidden;
 }
+.titulo{
+  font-family: "Summer", sans-serif !important;
+  font-size: 20vmin;
+  font-weight: 200; 
+  color: #253A82;
+  text-align: center;
+  margin-top: 10px;
+}
+.rectangulos{
+  display:flex;
+  gap: 10px;
+}
+.rectangulos1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  position: relative;
+
+}
+.r1{
+ background: #253A82;
+ padding: 10px 10px 10px 10px;
+ border-radius: 12px;
+ text-align: center; 
+ min-width: 300px;
+ min-height: 150px; 
+ position: relative;  
+}
+
+.r2{
+ background: #AB9DFF;
+ padding: 10px 10px 10px 10px;
+ border-radius: 12px;
+ text-align: center; 
+ min-width: 300px;
+ min-height: 150px; 
+ position: relative;  
+}
+.r3{
+ background: #C0E0FF;
+ padding: 10px 10px 10px 10px;
+ border-radius: 12px;
+ text-align: center; 
+ min-width: 300px;
+ min-height: 150px; 
+ position: relative;  
+}
+.r4{
+ background: #E3FC87;
+ padding: 10px 10px 10px 10px;
+ border-radius: 12px;
+ text-align: center; 
+ min-width: 300px;
+ min-height: 150px;
+ position: relative;  
+}
+.s1{
+  color:#F0EEE9;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: 'Beckman', sans-serif;
+  font-weight: 600;
+}
+.s2{
+  color:#253A82;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-family: 'Beckman', sans-serif;
+  font-weight: 600;
+}
+.par{
+  color:#253A82;
+  font-size: 0.6rem;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 5px;   
+  text-align: justify;        
+}
+.par2{
+  color:#F0EEE9;
+  font-size: 0.6rem;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 5px;  
+  text-align: justify;         
+}
+.extra-title{
+  font-family: 'Beckman', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 200; 
+  color: #253A82;
+  text-align: justify;
+  margin-top: 70px;
+}
+
+.extra-par{
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 0.8rem;
+  font-weight: 300; 
+  color: #253A82;
+  text-align: center;
+  margin-top: 0px;
+  display: flex;
+  gap: 150px;
+  text-align: justify;
+  line-height: 1.1;
+}
+
+.extra-info {
+  display: flex;
+  flex-direction: column  ;  
+  align-items: left;
+  position: fixed;
+  bottom: 10px;
+  left: 70px;
+  margin: 0;
+  z-index: 100;
+}
 
 .texto{
   font-family: "Summer", sans-serif !important;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 200; 
   color: #F0EEE9;
 }
 .texto1{
   font-family: "Summer", sans-serif !important;
-  font-size: 3rem;
+  font-size: 4.8rem;
   font-weight: 200; 
   color: #253A82;
+  text-align: justify;
 }
 .horizontal-wrapper {
   position: relative;
@@ -48,6 +170,88 @@ html, body {
 .section5 { background: #E3FC87; }
 
 .content {
-  text-align: center;
   max-width: 600px;
+  margin: 0 auto;        
+  min-height: 100vh;    
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  padding: 100px ;  
+}
+.content2{
+  display: flex;
+  align-items: center; 
+  gap: 2rem;
+}
+.content3{
+  flex: 0 0 600px;
+  display: flex ;
+  flex-direction: column;
+  align-items:flex-start; 
+}
+
+.content4{
+  gap:0.1rem;
+  flex: 0 0 400px;
+  display: flex ;
+  flex-direction: column;
+  align-items:flex-start; 
+}
+
+.t1{
+  font-family: 'Beckman', sans-serif;
+  font-size: 3.84rem;
+  font-weight: 200; 
+  color: #F0EEE9;
+  text-align: justify;
+}
+.t2{
+  font-size: 0.875rem;
+  line-height: 1rem ;
+  text-align: justify;
+  color: #F0EEE9;
+  font-family: "Open Sans", sans-serif !important;
+}
+.t3{
+  font-family: 'Beckman', sans-serif;
+  font-size: 1rem;
+  font-weight: 200; 
+  color: #F0EEE9;
+  text-align: justify;
+}
+.t4 {
+  font-size: 0.75rem;
+  line-height: 1rem ;
+  text-align: justify;
+  color: #F0EEE9;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.t12{
+  font-family: 'Beckman', sans-serif;
+  font-size: 3.84rem;
+  font-weight: 200; 
+  color: #253A82;
+  text-align: justify;
+}
+.t22{
+  font-size: 0.875rem;
+  line-height: 1rem ;
+  text-align: justify;
+  color: #253A82;
+  font-family: "Open Sans", sans-serif !important;
+}
+.t32{
+  font-family: 'Beckman', sans-serif;
+  font-size: 1rem;
+  font-weight: 200; 
+  color: #253A82;
+  text-align: justify;
+}
+.t42 {
+  font-size: 0.75rem;
+  line-height: 1rem ;
+  text-align: justify;
+  color: #253A82;
+  font-family: "Open Sans", sans-serif !important;
 }

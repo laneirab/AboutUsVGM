@@ -30,13 +30,17 @@
   .text-block h4 {
     font-size: 0.95rem;
     font-weight: 800;
+    text-align: justify;
+    word-spacing: 0.10em;
+
   }
   
   .text-block p {
     font-weight: 300;
     line-height: 1.4;
+    text-align: justify;
+     
   }
-  
   /* Posiciones */
   .top-left {
     top: 0;
@@ -66,8 +70,8 @@
   }
   
   .center-icon img {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
   }
   
   /* Botón */
