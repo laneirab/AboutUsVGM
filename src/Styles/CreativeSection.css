@@ -6,7 +6,7 @@
   }
   
   .title {
-    font-size: 3rem;
+    font-size: 3.07rem;
     font-weight: 800;
     color: #253A82;
     margin-bottom: 40px;
@@ -24,11 +24,11 @@
     width: 200px;
     position: absolute;
     color: #253A82;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
   }
   
   .text-block h4 {
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-weight: 800;
     text-align: justify;
     word-spacing: 0.10em;

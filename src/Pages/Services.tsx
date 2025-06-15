@@ -41,68 +41,21 @@ export const Services: React.FC = () => {
     <section className="horizontal-section">
       <div className="horizontal-container" ref={containerRef}>
         <section className="section section1">
-          <div className="content">
-            <h1 className="titulo">Services</h1>
-            <div>
-              <div>
-                <div className='rectangulos'>
-                  <div className='r1'>
-                    <div className='rectangulos1'>
-                      <h2 className='s1'>Taxes</h2>
-                      <img src="public\Fonts\Images\logos\taxes.svg" width="30"
-        height="30"
-        alt="tax" />
-                    </div>
-                    
-                  </div>
-                  <div className='r2'>
-                    <div className='rectangulos1'>
-                      <h2 className='s2'>Consulting</h2>
-                      <img src="public\Fonts\Images\logos\consulting.svg" width="30"
-        height="30"
-        alt="con" />
-                    </div>
-                    
-                  </div>
-                  <div className='r3'>
-                    <div className='rectangulos1 '>
-                      <h2 className='s2'>Health Insurances</h2>
-                      <img src="public\Fonts\Images\logos\health.svg" width="30"
-        height="30"
-        alt="health" />
-                    </div>
-                   
-                  </div>
-                  <div className='r4'>
-                    <div className='rectangulos1'>
-                      <h2 className="s2">Real State</h2>
-                      <img src="public\Fonts\Images\logos\real.svg" width="30"
-        height="30"
-        alt="tax" />
-                    </div>
-                   
-                  </div>
+          <div className="cont">
+              <div className='cont1'>
+    
+                  <h1 style={{ margin: 0 }}>Servicios</h1>
+
+                <div className='cont2'>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vestibulum turpis sed augue porttitor laoreet. Nunc a porta purus. Maecenas mollis tellus eu urna suscipit, sit amet pellentesque dolor venenatis. Fusce eu mattis nisl. Vestibulum ac porta tortor. Cras sollicitudin, augue vitae viverra laoreet, orci turpis consectetur turpis, ut dictum erat nisl eget urna. Duis dui mi, fringilla sed malesuada id, vulputate ac lorem. Maecenas ac tristique nulla. Nam et viverra ipsum. Vivamus euismod diam volutpat quam ultricies feugiat. Proin at ligula ut leo sodales mollis. Nulla viverra lacinia felis, non elementum dolor ultricies sed. Sed mattis, libero sit amet posuere cursus, est odio porta nulla, sed placerat ante erat a urna. Mauris lacinia luctus ex, a rutrum tortor congue vitae.
+                  </p>
+                  <p>
+                    veamos más  →
+                  </p>
                 </div>
               </div>
-            </div>
-            <h2 className="extra-title"></h2>
-            <div className="extra-info">
-              <h2 className="extra-title">Más información</h2>
-              <div className="extra-par" >
-                <p>Ofrecemos atención personalizada para cada cliente. <br />
-                aquidamos de todo lo que quiera bla kkajsdkjkjasjd <br />
-                aqui mas y más texto seguimos escribiendo un montón 
-                <br /></p>
-                <p>Contamos con años de <strong>experiencia </strong>en el sector.<br />
-                aquidamos de todo lo que quiera bla kkajsdkjkjasjd <br />
-                aqui mas y más texto seguimos escribiendo un montón 
-                <br /></p>
-                <p>Tu <strong>satisfacción</strong> es nuestra prioridad.<br />
-                aquidamos de todo lo que quiera bla kkajsdkjkjasjd <br />
-                aqui mas y más texto seguimos escribiendo un montón 
-                <br /></p>
-              </div>
-            </div>
+            
           </div>
         </section>
 

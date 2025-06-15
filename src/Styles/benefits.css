@@ -13,7 +13,7 @@
 
 .background-image {
   flex: 1;
-  background:#C0E0FF 95%;
+  background:#C0E0FF ;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -33,20 +33,21 @@
     font-family: "Summer", sans-serif !important;
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 5rem;
+    font-size: 3.84rem;
     max-width: 100%;
     color: #243981;
   }
   
   .subtitle {
     font-size: 1rem;
-    font-weight: 400;
     color: #243981;
     margin-top: 1rem;
+    font-family: "Open Sans", sans-serif !important;
   }
   
   .benefits {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    text-align: justify;
     font-family: "Summer", sans-serif !important;
     display: flex;
     justify-content: space-around;

@@ -30,7 +30,7 @@ body {
 
 .Fin {
   font-family: "Summer", sans-serif !important;
-  font-size: 3rem;
+  font-size: 3.07rem;
   font-weight: 200; /* Makes text thinner */
   padding: 0;
   margin-top: 15%;
@@ -44,14 +44,14 @@ body {
   font-family: "Summer", sans-serif !important;
   margin-top: 0%;
   margin-bottom: 0%;
-  font-size: 5rem;
+  font-size: 4.8rem;
   max-width: 100%;
   color: #C0E0FF;
 }
 
 .subtexto {
   font-family: "Open", sans-serif !important;
-  font-size: 0.7em;
+  font-size: 0.75em;
   color: #F0EEE9;
   bottom: 0;
   margin-top: 5%;
