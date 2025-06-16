@@ -33,16 +33,18 @@
     font-family: "Summer", sans-serif !important;
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 3.84rem;
+    font-size: 4.5rem;
     max-width: 100%;
     color: #243981;
+    line-height: normal;
   }
   
   .subtitle {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #243981;
     margin-top: 1rem;
     font-family: "Open Sans", sans-serif !important;
+    line-height: normal;
   }
   
   .benefits {

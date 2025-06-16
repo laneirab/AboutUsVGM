@@ -12,7 +12,7 @@ export const Services: React.FC = () => {
     const container = containerRef.current;
     if (!container) return;
 
-    const sections = gsap.utils.toArray<HTMLElement>('.section');
+    // const sections = gsap.utils.toArray<HTMLElement>('.section');
 
     
     const totalScrollWidth = container.scrollWidth - window.innerWidth;
@@ -27,7 +27,7 @@ export const Services: React.FC = () => {
         end: () => `+=${totalScrollWidth}`,
         pin: true,
         anticipatePin: 1,
-        scrub: 1.5,
+        scrub: 3,
         snap : 0.05
       },
     });
@@ -100,9 +100,6 @@ export const Services: React.FC = () => {
                 </div>
               </div>
             </div>
-            
-            
-
           </div>
         </section>
 

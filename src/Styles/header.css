@@ -26,17 +26,23 @@ body {
   text-align: center;
   padding: 20px;
 }
-
+.paragraph{
+  font-family: 'Beckman', sans-serif;
+  color: #F0EEE9;
+  font-size: 2.3vh;
+  line-height: normal;
+  }
 
 .Fin {
   font-family: "Summer", sans-serif !important;
-  font-size: 3.07rem;
+  font-size: 8vh;
   font-weight: 200; /* Makes text thinner */
   padding: 0;
   margin-top: 15%;
   margin-bottom: 0%;
   max-width: 100%;
   color: #F0EEE9;
+  line-height: 3rem;
 }
 
 
@@ -44,9 +50,10 @@ body {
   font-family: "Summer", sans-serif !important;
   margin-top: 0%;
   margin-bottom: 0%;
-  font-size: 4.8rem;
+  font-size: 12vh;
   max-width: 100%;
   color: #C0E0FF;
+  line-height: normal;
 }
 
 .subtexto {

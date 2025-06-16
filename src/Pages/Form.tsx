@@ -24,7 +24,7 @@ export const Form: React.FC = () => {
             <label>Servicio</label>
             <div className="service-options">
               <ServiceButton icon="/Fonts/Images/logos/taxes.svg" label="Taxes" variant="taxes" />
-              <ServiceButton icon="/Fonts/Images/logos/consulting.svg" label="Consulting" variant="consulting" />
+              <ServiceButton icon="/Fonts/Images/logos/consulting.svg" label="Consult" variant="consulting" />
               <ServiceButton icon="/Fonts/Images/logos/health.svg" label="Health" variant="health" />
               <ServiceButton icon="/Fonts/Images/logos/real.svg" label="Real" variant="real" />
             </div>

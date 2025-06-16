@@ -1,17 +1,16 @@
 .video {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10rem;
-    height: 100dvh;
+    padding: 5rem;
+    min-height: 100vh;
     width: 100%;
     background: linear-gradient(to right, #1e3c72, #2a5298, #8f94fb);
     color: white;
   }
   
   .video__content {
-    flex: 1;
+    flex: 0.7;
     min-width: 280px;
     text-align: left;
   }
@@ -21,28 +20,33 @@
     font-size: 6vh;
     font-weight: bold;
     margin-bottom: 1rem;
+    line-height: normal;
   }
   
   .video__content p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
     max-width: 400px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
   }
   
   .video__buttons {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 3rem ;
   }
   
   button.primary {
     background-color: white;
-    color: black;
+    color: #243981;
     border: none;
-    padding: 0.7rem 1.2rem;
+    padding: 0 1.4rem;
     border-radius: 1.5rem;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
   }
   
   button.secondary {
@@ -50,7 +54,7 @@
     color: white;
     border: none;
     padding: 0.7rem 1.2rem;
-    font-weight: normal;
+    font-weight: 300;
     cursor: pointer;
   }
   

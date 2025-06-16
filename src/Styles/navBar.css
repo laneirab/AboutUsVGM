@@ -1,21 +1,96 @@
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: rgba(41, 39, 92, 0.4); ;
-    backdrop-filter: blur(30px);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:#253A82,!important;
-  }
-  
-  .navbar-logo {
-    margin: 1rem;
-    display: flex;
-    align-items: center;
-  }
+.social-language-container {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 5px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
+.social-icons-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.social-icon-link {
+  padding: 8px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 35px !important;
+  height: 35px !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+}
+
+.social-icon-link:hover {
+  background: rgba(255, 255, 255, 0.5) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.language-divider {
+  width: 1px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 4px;
+}
+
+.language-toggle-group {
+  border: none !important;
+  gap: 4px;
+}
+
+.language-toggle-btn {
+  font-family: 'Summer' !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+  min-width: 40px !important;
+  height: 35px !important;
+  transition: all 0.2s ease !important;
+  margin: 0 !important;
+}
+
+.language-toggle-btn:hover {
+  background: rgba(255, 255, 255, 1) !important;
+  color: #2d3748 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Mantén tus estilos originales para otros elementos */
+.social-container {
+  background: rgba(192, 224, 255, 0.6);
+  border-radius: 6px;
+  padding: 0.2rem 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.toggle-button {
+  font-family: 'Summer';
+  font-size: 1.2vw;
+  background-color: rgba(192, 224, 255, 0.6);
+  padding: 0.1rem 0.4rem;
+  height: 1.5rem;
+  line-height: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.toggle-button:hover,
+.toggle-button:focus,
+.toggle-button:active {
+  background-color: rgba(192, 224, 255, 0.8);
+  color: white;
+}

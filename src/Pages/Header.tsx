@@ -11,17 +11,17 @@ export const Header: React.FC = () => {
       <NavBar />
       <div className="header-content">
         <div className='text'>
-          <h3 className="Fin scale-up-center" style={{ fontSize: '3.5rem', lineHeight: '0.6' }}>EXPERT TAX AND</h3>
-          <h2 className="Future scale-up-center" style={{ fontFamily: 'Beckman', fontSize: '6vw', lineHeight: '1' }}>INSURANCE</h2>
-          <h2 className="Future scale-up-center" style={{ fontFamily: 'Beckman', fontSize: '6vw', lineHeight: '0.6' }}>SOLUTIONS</h2>
+          <h3 className="Fin scale-up-center">EXPERT TAX AND</h3>
+          <h2 className="Future scale-up-center">INSURANCE</h2>
+          <h2 className="Future scale-up-center" >SOLUTIONS</h2>
         </div>
 
-        <p className="Fin scale-up-center" style={{ fontFamily: 'Open Sans, sans-serif', fontSize: '1vw', fontWeight: '200', margin: '20px' }}>
+        <p className="paragraph">
           Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor incididunt ut <br />labore et dolore magna aliqua
         </p>
 
         <a href="https://wa.me/13052982118" target="_blank" rel="noopener noreferrer"> 
-          <Button style={{ backgroundColor: '#253A82', borderColor: '#253A82', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '15px', margin:"5px", width:"200px", borderRadius:"30px"}} variant="primary" size="lg">
+          <Button style={{ backgroundColor: '#253A82', borderColor: '#253A82', fontFamily: 'Beckman, sans-serif', fontSize: '15px', padding: '20px', margin:"5px", width:"200px", borderRadius:"30px"}} variant="primary" size="lg">
             Start Now
           </Button>
         </a>

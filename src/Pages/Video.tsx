@@ -15,7 +15,7 @@ export const Video: React.FC = () => {
           incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="video__buttons">
-          <button className="primary">Start Now</button>
+          <button className="primary">START NOW</button>
           <button className="secondary">More details</button>
         </div>
       </div>

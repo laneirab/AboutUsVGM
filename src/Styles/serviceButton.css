@@ -11,6 +11,8 @@
     gap: 0.5rem;
     cursor: pointer;
     transition: transform 0.2s ease;
+    box-shadow: 3px 6px 5px rgba(0, 32, 96, 0.4);
+    
   }
   
   .service-button:hover {
@@ -32,7 +34,6 @@
   .service-button.consulting {
     background: #AB9DFF;
     color: #243981;
-    font-size: 0.85rem;
   }
   
   .service-button.health {

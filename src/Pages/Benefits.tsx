@@ -8,9 +8,9 @@ export const Benefits: React.FC = () => {
       <div className='benefit-section'>
         <div className="background-image">
           <div className="overlay">
-            <h2 className="title" style={{fontSize: '4vw', lineHeight: '1' }}>GOOD FOR YOU <br/> AND YOUR <br/> BUSINESS.</h2>
+            <h2 className="title" >GOOD FOR YOU <br/> AND YOUR <br/> BUSINESS.</h2>
             <p className="subtitle">
-              We are on a mission to help good businesses grow. This is why we reward sustainable businesses with lower fees, freeing up even more of your cash. Get started and access funding in 5 minutes.
+              We are on a mission to help good businesses grow. This is why <br/> we reward sustainable businesses with lower fees, freeing up <br/> even more of your cash. Get started and access funding in 5 <br/> minutes.
             </p>
           </div>
         </div>
