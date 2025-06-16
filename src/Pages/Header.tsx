@@ -2,13 +2,11 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import '../Styles/header.css'; 
 import { BlurBackground } from '../Components/background';
-import { NavBar } from '../Components/navBar';
 
 export const Header: React.FC = () => {
   return (
     <div className="header-container">
       <BlurBackground />
-      <NavBar />
       <div className="header-content">
         <div className='text'>
           <h3 className="Fin scale-up-center">EXPERT TAX AND</h3>

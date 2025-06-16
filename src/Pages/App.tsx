@@ -10,6 +10,7 @@ import { Form } from '../Pages/Form.tsx';
 import { Footer } from './footer.tsx';
 import { gsap } from 'gsap';
 import { ScrollSmoother } from 'gsap/ScrollSmoother';
+import { NavBar } from '../Components/navBar.tsx';
 
 gsap.registerPlugin(ScrollSmoother);
 
@@ -25,6 +26,8 @@ const App: React.FC = () => {
   }, []);
 
   return (
+    <>
+      <NavBar />
     <div id="smooth-wrapper">
       <div id="smooth-content">
         <section id="home">
@@ -50,6 +53,7 @@ const App: React.FC = () => {
         <Footer />
       </div>
     </div>
+    </>
   );
 };
 
